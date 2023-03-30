@@ -1,5 +1,16 @@
 function comp(){
-	var num = document.getElementById('grade').value
+	var num = avg
+	var gra1 = document.getElementById('gra1').value
+	var gra2 = document.getElementById('gra2').value
+	var gra3 = document.getElementById('gra3').value
+	var gra4 = document.getElementById('gra4').value
+	var gra5 = document.getElementById('gra5').value
+	var gra6 = document.getElementById('gra6').value
+	var gra7 = document.getElementById('gra7').value
+	
+	var avg = ((gra1 + gra2 + gra3 + gra4 + gra5 + gra6 + gra7)/7)
+	
+	
 	if(num > 100){
 		window.alert("Error Occured: Value is not an acceptable grade.");
 	}
