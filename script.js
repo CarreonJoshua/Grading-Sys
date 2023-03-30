@@ -11,22 +11,22 @@ function comp(){
 	var num = avg / 7
 	
 	if(num > 100){
-		window.alert("Error Occured: Value is not an acceptable grade.");
+		window.alert("Error Occured: Value is not an acceptable grade. " + num);
 	}
 	else if(num <= 100 && num >=90){
-		window.alert("OUTSTANDING!");
+		window.alert("OUTSTANDING! " + num);
 	}
 	else if(num <= 89 && num >= 85){
-		window.alert("Very Satisfactory");
+		window.alert("Very Satisfactory " + num);
 	}
 	else if(num <= 84 && num >= 80){
-		window.alert("Satisfactory");
+		window.alert("Satisfactory " + num);
 	}
 	else if(num <= 79 && num >= 75){
-		window.alert("Fairly Satisfactory");
+		window.alert("Fairly Satisfactory " + num);
 	}
 	else{
-		window.alert("Bzzt. DID NOT MEET EXPECTATIONS")
+		window.alert("Bzzt. DID NOT MEET EXPECTATIONS " + num);
 	}
 
 }
