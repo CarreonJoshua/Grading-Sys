@@ -7,7 +7,7 @@ function comp(){
 	var gra6 = document.getElementById('gra6').value
 	var gra7 = document.getElementById('gra7').value
 	
-	var num = ((gra1 + gra2 + gra3 + gra4 + gra5 + gra6 + gra7)/7)
+	var num = (gra1 + gra2 + gra3 + gra4 + gra5 + gra6 + gra7)/7
 	
 	
 	if(num > 100){
