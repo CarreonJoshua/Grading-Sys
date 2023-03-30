@@ -1,5 +1,4 @@
 function comp(){
-	var num = avg
 	var gra1 = document.getElementById('gra1').value
 	var gra2 = document.getElementById('gra2').value
 	var gra3 = document.getElementById('gra3').value
@@ -8,7 +7,7 @@ function comp(){
 	var gra6 = document.getElementById('gra6').value
 	var gra7 = document.getElementById('gra7').value
 	
-	var avg = ((gra1 + gra2 + gra3 + gra4 + gra5 + gra6 + gra7)/7)
+	var num = ((gra1 + gra2 + gra3 + gra4 + gra5 + gra6 + gra7)/7)
 	
 	
 	if(num > 100){
